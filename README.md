@@ -1,10 +1,14 @@
 # Sample To-Do Rails App
 Component: 
-- Ruby 2.2.1
 - Rails 4.2.10
+- I have used Ruby 2.4.0(you can use ruby > 2.2.2)
 
-This app is a testing ground for learning to build a todo app with rails.
+This app is a sample todo app with rails.
+App is Rails v4.2.10
 
-This incorporates dynamic creation and saving of tasks items inside different todo lists.
-
-It also has a completion marker which works using a patch method.
+# Challenge
+- Clone the repository
+- Create a new branch(eg: chaitanya)
+- Upgrade this rails 4 version app into Rails 5(5.2.0)
+- Commit into respective branch
+- Also update the procedure that you have follwed for upgrading the rails app in README.md at end of file
