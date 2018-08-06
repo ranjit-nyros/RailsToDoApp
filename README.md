@@ -4,10 +4,10 @@
 - I have used Ruby 2.4.0
 
 ### Updated the following 
-### Gemfile:
-gem 'rails', '5.2.0'.
-gem 'puma', '~> 3.11'.
-gem 'listen', '>= 3.0.5', '< 3.2'.
+### Gemfile
+gem 'rails', '5.2.0'\
+gem 'puma', '~> 3.11'\
+gem 'listen', '>= 3.0.5', '< 3.2'\
 And run "bundle update"
 
 ### Model:
