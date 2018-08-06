@@ -3,7 +3,8 @@ class TodoItem < ApplicationRecord
 
   # if the todo_item is completed then the completed_at field should not be blank
   def completed?
-    !completed_at.blank?
+    !completed_at.blank? 
+    throw(:abort)
   end
 
 end
