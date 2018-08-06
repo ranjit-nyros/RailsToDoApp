@@ -5,7 +5,9 @@
 
 ### Updated the following 
 ### Gemfile:
-gem 'rails', '5.2.0'-gem 'puma', '~> 3.11'-gem 'listen', '>= 3.0.5', '< 3.2'
+.gem 'rails', '5.2.0'
+.gem 'puma', '~> 3.11'
+.gem 'listen', '>= 3.0.5', '< 3.2'
 And run "bundle update"
 
 ### Model:
@@ -23,7 +25,7 @@ Inorder to solve the issue related to size of strings in rails5
 =>Updated migration files as  class CreateTodoLists < ActiveRecord::Migration[5.2]
 =>Run "rails db:migrate"
 
-###Controllers:
+### Controllers:
 => Checked controllers for the existence of strong params
 
 ### Config Files:
