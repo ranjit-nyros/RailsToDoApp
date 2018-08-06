@@ -22,7 +22,8 @@ And run **bundle update
 ### Migrations:
 
 Inorder to solve the issue related to size of strings in rails5
-=>Updated migration files as  class CreateTodoLists < ActiveRecord::Migration[5.2]
+=>Updated migration files as\
+class CreateTodoLists < ActiveRecord::Migration[5.2]
 =>Run "rails db:migrate"
 
 ### Controllers:
