@@ -1,9 +1,9 @@
 ## Sample To-Do Rails App
-###**Component**: 
+## Component: 
 - Rails 5.2.0
 - I have used Ruby 2.4.0
 
-#Updated the following 
+### Updated the following 
 Added the following gems in
 ### Gemfile:
 gem 'rails', '5.2.0'
