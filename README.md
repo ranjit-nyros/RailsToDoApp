@@ -12,9 +12,9 @@ And run **bundle update
 
 ### Model:
 =>Created application_record.rb and added the following code\
-	class ApplicationRecord < ActiveRecord::Base
-  		self.abstract_class = true
-	end
+	class ApplicationRecord < ActiveRecord::Base\
+  		self.abstract_class = true\
+	end\
 
 =>And Updated all models with ApplicationRecord which is inherited from application_record.rb
 =>Updated "belongs_to:todo_list" as "belongs_to :todo_list, optional:true" because required: true is deprecated.
