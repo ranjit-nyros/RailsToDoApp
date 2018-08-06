@@ -8,7 +8,7 @@
 gem 'rails', '5.2.0'\
 gem 'puma', '~> 3.11'\
 gem 'listen', '>= 3.0.5', '< 3.2'\
-And Run **bundle update**
+And Run **"bundle update"**
 
 ### Model:
 
