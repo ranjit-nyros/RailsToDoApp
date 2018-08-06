@@ -12,24 +12,24 @@ And run **bundle update
 
 ### Model:
 
--Created application_record.rb and added the following code\
+- Created application_record.rb and added the following code\
 	class ApplicationRecord < ActiveRecord::Base\
   		self.abstract_class = true\
 	end
 
 
--And Updated all models with ApplicationRecord which is inherited from application_record.rb
+- And Updated all models with ApplicationRecord which is inherited from application_record.rb
 
--Updated "belongs_to:todo_list" as "belongs_to :todo_list, optional:true" because required: true is deprecated.
+- Updated "belongs_to:todo_list" as "belongs_to :todo_list, optional:true" because required: true is deprecated.
 
 ### Migrations:
 
 Inorder to solve the issue related to size of strings in rails5
 
--Updated migration files as\
+- Updated migration files as\
 class CreateTodoLists < ActiveRecord::Migration[5.2]
 
--Run "rails db:migrate"
+ *Run "rails db:migrate"
 
 ### Controllers:
 
