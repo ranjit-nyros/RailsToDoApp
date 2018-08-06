@@ -31,7 +31,7 @@ class CreateTodoLists < ActiveRecord::Migration[5.2]
 
 ### Config Files:
 
-=>  To avoid raise_in_transactional_callbacks  error
+- To avoid raise_in_transactional_callbacks  error
 	Comment this line in config/application.rb
      config.active_record.raise_in_transactional_callbacks = true
 
