@@ -21,8 +21,8 @@ end
 - Added Halting Callback Chains via throw(:abort).
 
 Migrations:
-- Added version to migration due to default sizes.
-ActiveRecord::Migration ==> ActiveRecord::Migration[5.2]
+- Version specified to migration due to default sizes.
+- ex: ActiveRecord::Migration ==> ActiveRecord::Migration[4.2]
 
 
 
